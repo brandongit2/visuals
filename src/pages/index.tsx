@@ -1,7 +1,9 @@
 import {NextPage} from "next"
 
+import MainLayout from "@web/components/layouts/MainLayout"
+
 const Index: NextPage = () => {
-  return <div>Hello, world!</div>
+  return <MainLayout>Homepage</MainLayout>
 }
 
 export default Index
